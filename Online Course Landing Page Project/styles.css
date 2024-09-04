@@ -1,0 +1,254 @@
+/* Global Styles */
+/* Hero Section */
+#hero {
+    background: url('path-to-your-image.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#hero p {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#hero .cta-btn {
+    background: #ff6347;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    transition: background 0.3s;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#hero .cta-btn:hover {
+    background: #ff4500;
+}
+
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-padding {
+    padding: 60px 0;
+}
+
+h1, h2, h3 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Hero Section */
+#hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    background: #ff6347;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.cta-btn:hover {
+    background: #ff4500;
+}
+
+/* Course Overview Section */
+#course-overview {
+    background: #f9f9f9;
+}
+
+.overview-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.overview-item {
+    flex: 1;
+    min-width: 220px;
+    text-align: center;
+}
+
+.overview-item i {
+    font-size: 2rem;
+    color: #ff6347;
+    margin-bottom: 10px;
+}
+
+/* Instructor Section */
+#instructor {
+    background: #fff;
+}
+
+.instructor-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.instructor-content img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.instructor-bio {
+    flex: 1;
+}
+
+/* Curriculum Section */
+#curriculum {
+    background: #f9f9f9;
+}
+
+.curriculum-list li {
+    margin-bottom: 20px;
+}
+
+.curriculum-list h3 {
+    margin-bottom: 5px;
+}
+
+/* Video Preview Section */
+#video-preview {
+    background: #fff;
+}
+
+.video-wrapper {
+    text-align: center;
+}
+
+.video-wrapper iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 350px;
+}
+
+/* Testimonials Section */
+#testimonials {
+    background: #f9f9f9;
+}
+
+.testimonials-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.testimonial-item {
+    flex: 1;
+    min-width: 220px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Pricing Section */
+#pricing {
+    background: #fff;
+}
+
+.pricing-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.pricing-item {
+    flex: 1;
+    min-width: 220px;
+    text-align: center;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-item h3 {
+    margin-bottom: 10px;
+}
+
+.pricing-item .price {
+    font-size: 2rem;
+    color: #ff6347;
+    margin-bottom: 10px;
+}
+
+/* FAQ Section */
+#faq {
+    background: #f9f9f9;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-item h3 {
+    margin-bottom: 5px;
+}
+
+/* Footer Section */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
