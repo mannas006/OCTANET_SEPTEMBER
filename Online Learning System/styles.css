@@ -1,7 +1,7 @@
 /* Global Styles */
 /* Hero Section */
 #hero {
-    background: url('Images/1.jpg') no-repeat center center/cover;
+    background: url('Images/3.jpeg') no-repeat center center/cover;
     color: #fff;
     text-align: center;
     padding: 100px 20px;
@@ -15,6 +15,7 @@
     font-size: 3rem;
     margin-bottom: 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: white;
 }
 
 #hero p {
@@ -37,8 +38,6 @@
 #hero .cta-btn:hover {
     background: #ff4500;
 }
-
-
 
 
 body {
@@ -75,13 +74,14 @@ a {
 
 /* Hero Section */
 #hero {
-    background: url('Images/2.webp') no-repeat center center/cover;
+    background: url('Images/3.jpeg') no-repeat center center/cover;
     color: #fff;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    
 }
 
 #hero h1 {
